@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Frontend Mentor | Results summary component</title>
+
+		<link
+			rel="stylesheet"
+			href="../dist/styles.css"
+		/>
+	</head>
+	<body class="font-HankenGrotesk">
+		<div
+			class="main-container mylg:flex mylg:items-baseline mylg:w-[800px] mylg:h-[540px] mylg:relative mylg:top-[25vh] mylg:mx-auto mylg:my-0 mylg:rounded-3xl mylg:shadow-2xl"
+		>
+			<div
+				class="w-full h-64 text-center flex flex-col items-center px-10 py-3 rounded-b-3xl bg-gradient-to-b from-light-slate-blue to-light-royal-blue mylg:h-full mylg:gap-7 mylg:px-4 mylg:py-8 mylg:rounded-3xl"
+			>
+				<p class="text-gray-300 font-bold mylg:text-lg">Your Result</p>
+				<div
+					class="h-28 w-28 m-2 flex flex-col justify-center items-center bg-gradient-to-b from-violet-blue to-persian-blue rounded-full mylg:h-44 mylg:w-44 mylg:m-0"
+				>
+					<p class="text-5xl text-white font-black mylg:text-7xl">76</p>
+					<p class="text-sm text-gray-400 font-semibold mylg:text-base">
+						of 100
+					</p>
+				</div>
+
+				<div class="mylg:px-10">
+					<h1
+						class="text-xl font-bold text-white mt-2 mylg:text-3xl mylg:mt-0 mylg:relative mylg:-top-4"
+					>
+						Great
+					</h1>
+					<p
+						class="text-xs text-gray-400 font-semibold tracking-wide mylg:text-sm"
+					>
+						You scored higher than 65% of the people who have taken these tests.
+					</p>
+				</div>
+			</div>
+
+			<div class="w-full h-full">
+				<h2 class="px-6 my-5 text-btn-primary text-lg font-extrabold mylg:mt-0">
+					Summary
+				</h2>
+
+				<div class="flex flex-col px-6">
+					<ul class="flex flex-col gap-3">
+						<li>
+							<div
+								class="relative flex justify-between px-5 py-3 rounded-xl bg-red-50"
+							>
+								<div
+									class="corner top-left absolute top-0 left-0 border-t border-l rounded-tl-xl border-t-red-200 border-l-red-200 p-[5px]"
+								></div>
+								<div
+									class="corner top-right absolute top-0 right-0 border-t border-r rounded-tr-xl border-t-red-200 border-r-red-200 p-[5px]"
+								></div>
+								<div
+									class="corner btm-left absolute bottom-0 left-0 border-b border-l rounded-bl-xl border-b-red-200 border-l-red-200 p-[5px]"
+								></div>
+								<div
+									class="corner btm-right absolute bottom-0 right-0 border-b border-r rounded-br-xl border-b-red-200 border-r-red-200 p-[5px]"
+								></div>
+
+								<div class="flex items-start gap-2">
+									<img
+										src="../assets/images/icon-reaction.svg"
+										alt=""
+										class="h-5"
+									/>
+									<p class="text-light-red font-semibold">Reaction</p>
+								</div>
+								<div class="flex gap-1">
+									<p class="text-btn-primary font-bold">80</p>
+									<p class="text-gray-500 font-bold">
+										<span> / </span>
+										100
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="relative flex justify-between px-5 py-3 rounded-xl bg-yellow-50"
+							>
+								<div
+									class="corner top-left absolute top-0 left-0 border-t border-l rounded-tl-xl border-t-yellow-200 border-l-yellow-200 p-[5px]"
+								></div>
+								<div
+									class="corner top-right absolute top-0 right-0 border-t border-r rounded-tr-xl border-t-yellow-200 border-r-yellow-200 p-[5px]"
+								></div>
+								<div
+									class="corner btm-left absolute bottom-0 left-0 border-b border-l rounded-bl-xl border-b-yellow-200 border-l-yellow-200 p-[5px]"
+								></div>
+								<div
+									class="corner btm-right absolute bottom-0 right-0 border-b border-r rounded-br-xl border-b-yellow-200 border-r-yellow-200 p-[5px]"
+								></div>
+
+								<div class="flex items-start gap-2">
+									<img
+										src="../assets/images/icon-memory.svg"
+										alt=""
+										class="h-5"
+									/>
+									<p class="text-orangey-yellow font-semibold">Memory</p>
+								</div>
+								<div class="flex gap-1">
+									<p class="text-btn-primary font-bold">92</p>
+									<p class="text-gray-500 font-bold">
+										<span>/ </span>
+										100
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="relative flex justify-between px-5 py-3 rounded-xl bg-green-50"
+							>
+								<div
+									class="corner top-left absolute top-0 left-0 border-t border-l rounded-tl-xl border-t-green-200 border-l-green-200 p-[5px]"
+								></div>
+								<div
+									class="corner top-right absolute top-0 right-0 border-t border-r rounded-tr-xl border-t-green-200 border-r-green-200 p-[5px]"
+								></div>
+								<div
+									class="corner btm-left absolute bottom-0 left-0 border-b border-l rounded-bl-xl border-b-green-200 border-l-green-200 p-[5px]"
+								></div>
+								<div
+									class="corner btm-right absolute bottom-0 right-0 border-b border-r rounded-br-xl border-b-green-200 border-r-green-200 p-[5px]"
+								></div>
+
+								<div class="flex items-start gap-2">
+									<img
+										src="../assets/images/icon-verbal.svg"
+										alt=""
+										class="h-5"
+									/>
+									<p class="text-green-teal font-semibold">Verbal</p>
+								</div>
+								<div class="flex gap-1">
+									<p class="text-btn-primary font-bold">61</p>
+									<p class="text-gray-500 font-bold">
+										<span>/ </span>
+										100
+									</p>
+								</div>
+							</div>
+						</li>
+
+						<li>
+							<div
+								class="relative flex justify-between px-5 py-3 rounded-xl bg-violet-50"
+							>
+								<div
+									class="corner top-left absolute top-0 left-0 border-t border-l rounded-tl-xl border-t-blue-200 border-l-blue-200 p-[5px]"
+								></div>
+								<div
+									class="corner top-right absolute top-0 right-0 border-t border-r rounded-tr-xl border-t-blue-200 border-r-blue-200 p-[5px]"
+								></div>
+								<div
+									class="corner btm-left absolute bottom-0 left-0 border-b border-l rounded-bl-xl border-b-blue-200 border-l-blue-200 p-[5px]"
+								></div>
+								<div
+									class="corner btm-right absolute bottom-0 right-0 border-b border-r rounded-br-xl border-b-blue-200 border-r-blue-200 p-[5px]"
+								></div>
+
+								<div class="flex items-start gap-2">
+									<img
+										src="../assets/images/icon-visual.svg"
+										alt=""
+										class="h-5"
+									/>
+									<p class="text-cobalt-blue font-semibold">Visual</p>
+								</div>
+								<div class="flex gap-1">
+									<p class="text-btn-primary font-bold">72</p>
+									<p class="text-gray-500 font-bold">
+										<span>/ </span>
+										100
+									</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+
+					<button
+						class="h-14 mt-6 rounded-full font-semibold text-lg text-white bg-btn-primary mylg:hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue"
+					>
+						Continue
+					</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

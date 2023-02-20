@@ -1,0 +1,19 @@
+{
+	"name": "fm-ch1-solution",
+	"version": "1.0.0",
+	"description": "Solution to the results-sumary-component challenge from frontenmentor",
+	"main": "index.js",
+	"scripts": {
+		"tw-dev": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+	},
+	"keywords": [
+		"frontenmentor",
+		"ch1",
+		"results-sumary-component"
+	],
+	"author": "hages4ke",
+	"license": "MIT",
+	"devDependencies": {
+		"tailwindcss": "^3.2.7"
+	}
+}

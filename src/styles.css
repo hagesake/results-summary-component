@@ -1,0 +1,12 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700;800&family=Roboto+Mono:wght@500&display=swap"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "Hanken Grotesk", "sans-serif";
+		src: url("../assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+	}
+}
