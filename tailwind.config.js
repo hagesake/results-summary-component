@@ -15,11 +15,11 @@ module.exports = {
 				"persian-blue": "hsla(241, 72%, 46%, 0)",
 			},
 			fontFamily: {
-				HankenGrotesk: ["Hanken Grotesk", "sans-serif"],
+				'HankenGrotesk': ['Hanken Grotesk', 'sans-serif'],
 			},
 		},
 		screens: {
-			mylg: "1440px",
+			mylg: "1000px",
 		},
 	},
 	plugins: [],
