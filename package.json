@@ -2,7 +2,7 @@
 	"name": "fm-ch1-solution",
 	"version": "1.0.0",
 	"description": "Solution to the results-sumary-component challenge from frontenmentor",
-	"main": "index.js",
+	"main": "index.html",
 	"scripts": {
 		"tw-dev": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
 	},
